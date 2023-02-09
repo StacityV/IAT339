@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Resonsive Structures Collection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../css/main.css" rel="stylesheet" />
+</head>
+
+<!--nav sections-->
+
+<body>
+  <header>
+    <div class="topnavtag">
+      <div class="headerTag element">
+        <h1 class="navtag h1title">EVERPHONE</h1>
+      </div>
+
+      <nav class="navtag element navbutton">
+        <a class="in-text-link navbutton" href="../index.html">Home</a>
+        <a class="in-text-link navbutton" href="#">Smart Phones</a>
+        <a class="in-text-link navbutton" href="#">Tablets</a>
+        <a class="in-text-link navbutton" href="#">Watches</a>
+        <a class="in-text-link navbutton" href="#">TVs</a>
+        <a class="in-text-link navbutton" href="#">PCs</a>
+        <a class="in-text-link navbutton" href="product_list.html">Categories</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--pay form-->
+
+  <section class="element payformSection" id="checkout.html">
+    <h3>Payment Form</h3>
+
+    <div class="payform">
+      <div class="billingAddress">
+        <div class="PaymentTitle">Billing Address</div>
+        <div class="PaymentSection">Full Name</div>
+        <input type="text" class="PaymentSectionInput" placeholder="Steve Radio" />
+        <div class="PaymentSection">Email</div>
+        <input type="text" class="PaymentSectionInput" placeholder="example@email.com" />
+        <div class="PaymentSection">Address</div>
+        <input type="text" class="PaymentSectionInput" placeholder="1111-12345 Example Rd" />
+        <div class="PaymentSection">City</div>
+        <input type="text" class="PaymentSectionInput" placeholder="City" />
+
+        <div class="payformshort">
+          <div class="PaymentSection">
+            Province
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="Province" />
+            </div>
+          </div>
+          <div class="PaymentSection">
+            Postcode
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="V3E1H3" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="payment">
+        <div class="PaymentTitle">Payment</div>
+        <div class="PaymentSection">Name On Card</div>
+        <input type="text" class="PaymentSectionInput" placeholder=" Steve Radio" />
+        <div class="PaymentSection">Card Number</div>
+        <input type="text" class="PaymentSectionInput" placeholder="xxxx-xxxx-xxxx-xxxx" />
+        <div class="PaymentSection">Exp Month</div>
+        <input type="text" class="PaymentSectionInput" placeholder="MM" />
+        <div class="payformshort">
+          <div class="PaymentSection">
+            Exp Year
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="YYYY" />
+            </div>
+          </div>
+          <div class="PaymentSection">
+            CVV
+            <div>
+              <input type="text" class="PaymentSectionInput" placeholder="XXX" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkoutCart" id="#">
+
+      <div class="PaymentTitle">Subtotal</div>
+      <div class="checkoutitems">
+        <div class="firstitem">
+          <div class="checkoutCartName">Xiaomi 13 Ultra</div>
+          <div class="checkoutCartQuantity">
+            <input type="number" class="quantity" min="0" max="99" value="1" />
+          </div>
+        </div>
+
+        <div class="checkoutCartPrice">$1399.99</div>
+
+        <div class="seconditem">
+          <div class="checkoutCartName">Xiaomi Free Buds pro</div>
+          <div class="checkoutCartQuantity">
+            <input type="number" class="quantity" min="0" max="99" value="1" />
+          </div>
+        </div>
+
+        <div class="checkoutCartPrice">$399.99</div>
+      </div>
+      <!--choose quantity of product-->
+      <div class="checkoutCartSubtotal">$1799.98</div>
+      <div class="submit">
+        <input class="button-nav submitbtn" type="submit" value="Clear Cart" />
+        <input class="button-nav submitbtn" type="submit" value="Submit" />
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+Font: Dziedzic, Łukasz. Designer. 2010. Lato, https://fonts.google.com/specimen/Lato
+color choose: 
+    background: white: 255,255,255
+    title: grey: 66,66,69
+    font: grey: 29,29,31
+    

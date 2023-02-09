@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>P01 - Style Guide Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="topnavtag">
+      <div class="headerTag element">
+        <h1>EVERPHONE</h1>
+      </div>
+
+      <nav class="navtag element">
+        <a href="#interactive_elements" class="in-text-link navbutton">Interactive Elements</a>
+        <a href="#text_elements" class="in-text-link navbutton">Text Elements</a>
+        <a href="#combined_elements" class="in-text-link navbutton">Combined Elements</a>
+        <a href="html/product_list.html" class="in-text-link navbutton">Product Listing Template</a>
+        <a href="html/checkout_cart.html" class="in-text-link navbutton">Checkout Template</a>
+        <a href="#citations" class="in-text-link navbutton">Citations</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <section class="element">
+      <h3>In-text link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.in-text-link</p>
+
+      <h4>Sample code:</h4>
+      <code>
+          &lt;p&gt;My hometwon is a beatiful city, &lt;a
+          href="#">Nanjing&lt;/a&gt;&lt;/p&gt;</code>
+      <!-- code sample, &lt; for "<" and &gt; for ">"-->
+
+      <h4>Rendered element:</h4>
+      <!--in text link & A paragraph-->
+      <p>
+        My hometwon is a beatiful city,
+        <a href="https://en.wikipedia.org/wiki/Nanjing" class="in-text-link">Nanjing</a>
+      </p>
+    </section>
+
+    <!-- Default Button styling section -->
+    <section class="element">
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="button"&gt;Smart Phones&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a class="button-nav" href="#product_listing">Smart Phones</a>
+    </section>
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code>
+          &lt;input type="submit" value ="submit"&gt; &lt;input type="reset"
+          value ="reset"&gt;
+        </code>
+      <h4>Rendered element:</h4>
+      <input class="button-nav" type="submit" value="submit" />
+      <input class="button-nav" type="reset" value="reset" />
+    </section>
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+      <h4>CSS selector:</h4>
+
+      <!--Four levels of heading-->
+      <h4>Sample code:</h4>
+      <code>&lt;label for="name"&gt;your name: &lt;/label&gt;&lt;input type="text"
+        id="name"&gt;</code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+      <!--A text input field and a label-->
+      <label class="userName" for="name">User Name:</label>
+      <p><input type="text" id="name" /></p>
+      <!-- empty space to enter text-->
+    </section>
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code> &lt;input type="radio" value ="radio"&gt; </code>
+      <h4>Rendered element:</h4>
+      <label for="mastercard">MasterCard: </label><input type="radio" id="mastercard" />
+    </section>
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.image-as-link</p>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="https://www.apple.com.cn/iphone-14/"&gt;&lt;img
+          src="images/p1.jpeg" alt="this is a phone picture"&gt;&lt;/a&gt;</code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
+
+      <!--An image as a link-->
+      <a href="https://www.apple.com.cn/iphone-14/" class="image-as-link"><img src="images/p1.jpeg"
+          alt="this is a photo of iphone-14" /></a>
+      <!-- a image import with hyperlink-->
+
+      <!--A paragraph-->
+    </section>
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <h3>Headings</h3>
+
+      <h2>This is the h2 level heading</h2>
+
+      <h3>This is the h3 level heading</h3>
+
+      <h4>This is the h4 level heading</h4>
+
+      <h5>This is the h5 level heading</h5>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+      <p>
+        A15 Bionic, with a <em>5‑core GPU</em>, powers all the latest features
+        and makes graphically intense games and AR apps feel ultra‑fluid. An
+        updated internal design delivers better thermal efficiency, so you can
+        stay in the action longer.
+      </p>
+      <!--parapragh-->
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+
+      <ol>
+        <li>Phones</li>
+        <li>PCs</li>
+        <li>Pads</li>
+      </ol>
+    </section>
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+    <section class="element">
+      <h3>Main Navigation</h3>
+
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code>
+          &lt;a href="#"&gt;Smart Phones&lt;/a&gt; &lt;a
+          href="#"&gt;Tablets&lt;/a&gt; &lt;a href="#"&gt;Watches&lt;/a&gt;
+          &lt;a href="#"&gt;TVs&lt;/a&gt; &lt;a href="#"&gt;PCs&lt;/a&gt;
+        </code>
+      <h4>Rendered element:</h4>
+      <nav>
+        <a class="button-nav" href="#">Smart Phones</a>
+        <a class="button-nav" href="#">Tablets</a>
+        <a class="button-nav" href="#">Watches</a>
+        <a class="button-nav" href="#">TVs</a>
+        <a class="button-nav" href="#">PCs</a>
+      </nav>
+    </section>
+
+    <section class="element" id="product_listing">
+      <!--main navigation-->
+      <h3>Product/Service Listing</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample Code:</h4>
+      <code>
+        &lt;div class="container"&gt;
+          &lt;div class="zfold4"&gt;
+            &lt;a href="" class="productViewfold4"&gt;Samsung >&lt;/a&gt;
+            &lt;/div&gt;
+  
+            &lt;div class="mi12u"&gt;
+            &lt;a href="" class="productViewxm12u"&gt;Xiaomi >&lt;/a&gt;
+            &lt;/div>
+  
+            &lt;div class="iphone14"&gt;
+            &lt;a href="" class="productViewip14p"&gt;Apple >&lt;/a&gt;
+            &lt;/div&gt;
+  
+            &lt;div class="findn2flip"&gt;
+            &lt;a href="" class="productViewofn2f"&gt;OPPO >&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        </code>
+      <h4>Rendered element:</h4>
+
+      <div class="container">
+        <div class="zfold4">
+          <a href="" class="productViewfold4">Samsung ></a>
+          <!-- <div class="productImage"><img src="images/fold4.png" alt="Fold4 image"></div> -->
+          <!-- <div class="productName">Galaxy Z Fold4 | 95% New</div>
+            <div class="productColor">Graygreen</div>
+            <div class="productPrice">$1599</div> -->
+        </div>
+
+        <div class="mi12u">
+          <a href="" class="productViewxm12u">Xiaomi ></a>
+          <!-- <div class="productImage"><img src="images/m12u.png" alt="Fold4 image"></div> -->
+          <!-- <div class="productName">Xiaomi 12Ultra | Open Box</div>
+            <div class="productColor">Black</div>
+            <div class="productPrice">$1399</div> -->
+        </div>
+
+        <div class="iphone14">
+          <a href="" class="productViewip14p">Apple ></a>
+          <!-- <div class="productImage"><img src="images/14p.png" alt="Fold4 image"></div> -->
+          <!-- <div class="productName">iPhone 14 Pro Max| 90% New</div>
+            <div class="productColor">Blue</div>
+            <div class="productPrice">$1499</div> -->
+        </div>
+
+        <div class="findn2flip">
+          <a href="" class="productViewofn2f">OPPO ></a>
+          <!-- <div class="productImage"><img src="images/fn2f.png" alt="Fold4 image"></div> -->
+          <!-- <div class="productName">OPPO Find N2 Flip | Open Box</div>
+            <div class="productColor">Gold</div>
+            <div class="productPrice">$1099</div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="element payformSection" id="checkout.html">
+      <h3>Payment Form</h3>
+
+      <div class="payform">
+        <div class="billingAddress">
+          <div class="PaymentTitle">Billing Address</div>
+          <div class="PaymentSection">Full Name</div>
+          <input type="text" class="PaymentSectionInput" placeholder="Steve Radio" />
+          <div class="PaymentSection">Email</div>
+          <input type="text" class="PaymentSectionInput" placeholder="example@email.com" />
+          <div class="PaymentSection">Address</div>
+          <input type="text" class="PaymentSectionInput" placeholder="1111-12345 Example Rd" />
+          <div class="PaymentSection">City</div>
+          <input type="text" class="PaymentSectionInput" placeholder="City" />
+
+          <div class="payformshort">
+            <div class="PaymentSection">
+              Province
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="Province" />
+              </div>
+            </div>
+            <div class="PaymentSection">
+              Postcode
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="V3E1H3" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment">
+          <div class="PaymentTitle">Payment</div>
+          <div class="PaymentSection">Name On Card</div>
+          <input type="text" class="PaymentSectionInput" placeholder=" Steve Radio" />
+          <div class="PaymentSection">Card Number</div>
+          <input type="text" class="PaymentSectionInput" placeholder="xxxx-xxxx-xxxx-xxxx" />
+          <div class="PaymentSection">Exp Month</div>
+          <input type="text" class="PaymentSectionInput" placeholder="MM" />
+          <div class="payformshort">
+            <div class="PaymentSection">
+              Exp Year
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="YYYY" />
+              </div>
+            </div>
+            <div class="PaymentSection">
+              CVV
+              <div>
+                <input type="text" class="PaymentSectionInput" placeholder="XXX" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkoutCart" id="#">
+        <!--Checkout cart-->
+        <!-- <div class="supportCardImage">
+            <div class="checkoutCartImage"><img src="images/paymethod/AM-SbyPP-mc-vs-dc-ae2.webp" alt=""></div>
+            <div class="checkoutCartImage"><img src="images/paymethod/mastercard-debit.webp" alt=""></div>
+            <div class="checkoutCartImage"><img src="images/paymethod/mc-symbol-opt-45-1x.png" alt=""></div>
+            <div class="checkoutCartImage"><img src="images/paymethod/PayBright-Logo-2020-small.png" alt=""></div>
+            <div class="checkoutCartImage"><img src="images/paymethod/visa-debit.webp" alt=""></div>
+            <div class="checkoutCartImage"><img src="images/paymethod/VISA.webp" alt=""></div>
+          </div> -->
+
+        <div class="PaymentTitle">Subtotal</div>
+        <div class="checkoutitems">
+          <div class="firstitem">
+            <div class="checkoutCartName">Xiaomi 13 Ultra</div>
+            <div class="checkoutCartQuantity">
+              <input type="number" class="quantity" min="0" max="99" value="1" />
+            </div>
+          </div>
+
+          <div class="checkoutCartPrice">$1399.99</div>
+
+          <div class="seconditem">
+            <div class="checkoutCartName">Xiaomi Free Buds pro</div>
+            <div class="checkoutCartQuantity">
+              <input type="number" class="quantity" min="0" max="99" value="1" />
+            </div>
+          </div>
+
+          <div class="checkoutCartPrice">$399.99</div>
+        </div>
+        <!--choose quantity of product-->
+        <div class="checkoutCartSubtotal">$1799.98</div>
+      </div>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <!-- // Design info-->
+    <section>
+      <h2>Assenble brand components</h2>
+      <section class="element">
+        <div class="demofont">
+          fonts: Dziedzic, Łukasz. Designer. 2010. Lato,
+          https://fonts.google.com/specimen/Lato
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>about company</h3>
+        <div>
+          The company was many focus on second-hand electronic devices trade.
+          Our serives contained products like smart phones, pads and PCs. The
+          potential customers are people who desirse to switch phones with a
+          lower price, or hoping to sell their own phone and own a new one.
+          though its a company selling old products, we still hoping to give a
+          sense of high-end to enhance our customers confidence to choose our
+          company. So we our web will be clean, simple but well-organized,
+          this can not only give sense of high-end, but also help users to use
+          our website much easier.
+        </div>
+      </section>
+
+      <section class="element">
+        <div class="demo">
+          <h3 class="demotopicname">Color</h3>
+          <div class="demobackground">background: white: 255,255,255, #FFFFFF</div>
+          <div class="demotitle">title: grey: 66,66,69, #424245</div>
+          <div class="demofontcolor">font: grey: 29,29,31, #1D1D1F</div>
+        </div>
+      </section>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul class="element">
+        <li>
+          Dziedzic, Łukasz. Designer. 2010. <strong>Lato [Font]</strong>.
+          Retrieved from
+          <a href="https://fonts.google.com/specimen/Lato">https://fonts.google.com/specimen/Lato</a>
+        </li>
+        <li>
+          Xiaomi 12S Ultra, 2022.
+          Retrieved from
+          <a href="https://www.mi.com/mi12s-ultra">https://www.mi.com/mi12s-ultra</a>
+        </li>
+        <li>
+          iPhone 14 Pro Series, 2022.
+          Retrieved from
+          <a href="https://www.apple.com/ca/iphone-14-pro/">https://www.apple.com/ca/iphone-14-pro/</a>
+        </li>
+        <li>
+          Samsung GalaxyZ Fold4, 2022.
+          Retrieved from
+          <a href="https://www.samsung.com/ca/smartphones/galaxy-z-fold4/">https://www.samsung.com/ca/smartphones/galaxy-z-fold4/</a>
+        </li>
+        <li>
+          OPPO Find N2 Flip, 2022.
+          Retrieved from
+          <a href="https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/">https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/</a>
+        </li>
+        <li>
+          Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved
+          from <a href="#">URL</a>.
+        </li>
+      </ul>
+    </section>
+  </section>
+</body>
+
+</html>
