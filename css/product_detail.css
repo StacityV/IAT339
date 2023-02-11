@@ -1,0 +1,44 @@
+.product_detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    height: 35vw;
+    background-position: center;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.product_detail_card {
+    background-image: url("../images/m12u_product_detail.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+}
+
+.product_detail_name{
+    background-color: #F2F2F2;
+    border-radius: 0.5rem;
+}
+
+.product_detail_section{
+    flex: 1;
+}
+
+.product_detail_name{
+    
+}
+
+.product_detail_name>h2, p{
+    margin-left: 5rem;
+    
+}
+.product_detail_name h2{
+    color: #434345;
+    margin-top: 2rem;
+}
+
+.product_detail_name p{
+    margin-top: 2rem;
+}
