@@ -1,0 +1,193 @@
+/*    input styling    */
+.userName {
+    font-size: 1rem;
+    margin-top: 6rem;
+}
+
+form {
+    border: 0.5rem solid #AC292B;
+    border-radius: 1rem;
+    overflow: hiddem;
+    width: 50rem;
+}
+
+input[type=text]:hover,
+input[type=text]:focus {
+    background-color: #cecece;
+}
+
+input[type=text] {
+    margin-top: 0.5rem;
+    width: 100%;
+    margin-bottom: 1.05rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+
+/* -------------------Payment form --------------------------------------*/
+
+.payform {
+    /*general setting of billing address and payment box*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    /* distance of head space */
+    gap: 2rem;
+    /* distance between each box*/
+    max-width: 60rem;
+    margin: auto;
+    /* border:1px solid red; */
+}
+
+.billingAddress,
+.payment {
+    border-radius: 1.5rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem 1.75rem 1.05rem 1.75rem;
+    border: 0.1erm solid lightgrey;
+    border-radius: 0.5rem;
+    flex: 1;
+}
+
+.PaymentTitle {
+    /* border-top: 0.2rem solid #222222; */
+    font-size: 1.7rem;
+    padding: 2rem 4rem 5rem 0rem;
+    color: #222222;
+}
+
+
+
+input[type=number] {
+    margin-top: 0.5rem;
+    /* width: 50%; */
+    margin-bottom: 1.05rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.payformshort {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.payformshort div {
+    flex: 1;
+    /* border:1px solid green; */
+}
+
+.payformshort input[type=text] {
+    width: 100%;
+}
+
+@media screen and (max-width:850px) {
+
+    .payform,
+    .navtag,
+    .topnavtag {
+        flex-direction: column;
+    }
+}
+
+
+.checkoutCart {
+    margin-top: 1rem;
+}
+
+.checkoutCartSubtotal {
+    margin-top: 1.5rem;
+    /* border-top: 0.1rem solid #222222; */
+}
+
+.checkoutitems,
+.checkoutCartSubtotal {
+    /*two items*/
+    /* display: flex; */
+    justify-content: space-around;
+    max-width: 850px;
+    margin: auto;
+}
+
+.firstitem,
+.seconditem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checkoutCartPrice,
+.checkoutCartSubtotal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkoutCartName {
+    font-size: 1.5rem;
+}
+
+.checkoutCartPrice {
+    font-size: 1rem;
+}
+
+.firstitem,
+.seconditem,
+.checkoutCartPrice,
+.checkoutCartSubtotal {
+    /*distance between each line*/
+    margin-top: 2.5rem;
+}
+
+.checkoutCartSubtotal {
+    border-top: 0.12rem solid #222222;
+    padding-top: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    border: 2rem;
+    padding-top: 3rem;
+    max-width: 850px;
+    margin: auto;
+}
+
+.submitbtn {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    width: 15%;
+    height: 20%
+}
+
+/* billing info */
+
+.product_detail {
+    justify-content: space-between;
+}
+
+.product_detail_card {
+    background-image: url("../images/m12u.png");
+}
+
+/* button */
+.common-button{
+    color: #ffffff;
+    background-color: #434345;
+    border: 0.1rem solid #424245;
+}
+
+.common-button:hover, .common-button:focus{
+    background-color: #424245;
+    color: #ffffff;
+    border-radius:13px;
+}
+
+.payform>div:nth-of-type(3){
+    justify-content: end;
+    text-align: end;
+}
