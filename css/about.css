@@ -1,0 +1,58 @@
+.about_us_section {
+  background-color: #000000;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_us_text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* about_mission */
+.about_mission_content{
+  margin: 5rem;
+  padding: 2rem;
+  background-color: #424245;
+  color: #ffffff;
+  text-align: center;
+}
+/* about_team */
+.about_team{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem;
+}
+.about_team_image{
+  max-width: 25rem;
+  min-width: 20rem;
+  width: 35%;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.about_team_content{
+  min-width: 20rem;
+  color: #424245;
+  width: 40%;
+  text-align: left;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .about_team{
+    flex-direction: column;
+  }
+  .about_team_content{
+    width: 100%;
+    text-align: center;
+  }
+  .about_team_image{
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
