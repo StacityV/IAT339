@@ -414,16 +414,12 @@ input[type=number] {
 
 /* Assenble brand components */
 
-.demo{
+/* .demo{
   background-color: #000;
-}
+} */
 
 .demofont{
   font-family: Latosans-serif;
-}
-
-.demotopicname{
-  color: #fff;
 }
 
 .demobackground{
@@ -438,4 +434,20 @@ input[type=number] {
 .demofontcolor{
   background-color: white;
   color: #1D1D1F;
+}
+
+.brand_component h2{
+  color: #424245;
+}
+.font_26letter{
+  margin-top: 1rem;
+}
+.font_image img{
+  margin-top: 1rem;
+  width: 70%;
+  min-width: 25rem;
+}
+.demoblack{
+  color: #ffffff;
+  background-color: black;
 }
