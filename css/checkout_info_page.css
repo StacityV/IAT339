@@ -52,6 +52,10 @@ input[type=text] {
     flex: 1;
 }
 
+/* .payform>div:nth-of-type(1){
+    width:32.5vw;
+} */
+
 .PaymentTitle {
     /* border-top: 0.2rem solid #222222; */
     font-size: 1.7rem;
@@ -172,6 +176,7 @@ input[type=number] {
 
 .product_detail_card {
     background-image: url("../images/m12u.png");
+
 }
 
 /* button */
