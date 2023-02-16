@@ -280,6 +280,14 @@ input[type=text] {
   TEXT ELEMENTS -------------------
 */
 
+.heading_h2 h2{
+  color: #424245;
+  margin: 0rem;
+}
+.heading_h3 h3{
+  font-size: 1.25rem;
+}
+
 /* -------------------Payment form --------------------------------------*/
 
 .payform{ /*general setting of billing address and payment box*/
@@ -410,7 +418,9 @@ input[type=number] {
 /* 
   COMBINED ELEMENTS -------------------
 */
-
+.title_section h2{
+  color: black;
+}
 
 /* Assenble brand components */
 
