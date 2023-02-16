@@ -13,7 +13,7 @@
 }
 
 .product_listing_products img{
-  border-radius: 0.75rem;
+  
   width:100%;
 }
 
@@ -41,6 +41,7 @@
 
 .product-card-picture{
   overflow: hidden;
+  border-radius: 0.75rem; 
 }
 
 .product-card-picture img{
