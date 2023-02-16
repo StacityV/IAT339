@@ -52,3 +52,21 @@
 .common-button :hover {
 
 }
+
+.color_green:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color_red:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+}

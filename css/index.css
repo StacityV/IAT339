@@ -40,6 +40,8 @@
 }
 
 .collections-button{
+    /* margin-top: 10rem;
+    background-color: red; */
     color: #424245;
     border: 0.1rem solid #424245;
 }
@@ -118,7 +120,7 @@
 
 .collections>div{
     border-radius: 0.5rem;
-    height:70vh;
+    height:80vh;
     flex:1;
 }
 
@@ -150,7 +152,7 @@
 
 .collections a{
     color:#424245;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 

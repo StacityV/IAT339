@@ -14,13 +14,17 @@ h2{
     color: white;
 }
 
+.style_heading h2{
+    color: black
+}
+
 h3{
     font-size: 0.9rem;
     color: #2c2c2e;
 }
 
 h4{
-
+    
 }
 
 .element {
@@ -181,6 +185,16 @@ main{
 .header-logo img{
     width:45%;
 }
+
+nav a{
+    padding: 0.2rem 1rem;
+}
+
+nav .current_page{
+    border: 0.15rem solid #918d8d    ;
+    border-radius: 0.75rem;
+    
+}
 /* header logo part end*/
 
 /* header menu part start*/
@@ -262,7 +276,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: start;
-    
+    justify-content: flex-start;
 }
 
 
@@ -274,4 +288,8 @@ footer>div:nth-of-type(2){
     margin: auto;
     padding:1.5rem 0rem;
 }
+
+/* footer *{
+    border: 0.1rem solid red;
+} */
 /* footer menu part end*/

@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>P01 - Style Guide Template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <link href="css/main.css" rel="stylesheet" >
-  <link href="css/general.css" rel="stylesheet" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/general.css" rel="stylesheet">
 
 </head>
 
@@ -21,13 +21,17 @@
         <a href="#interactive_elements" class="in-text-link navbutton">Interactive Elements</a>
         <a href="#text_elements" class="in-text-link navbutton">Text Elements</a>
         <a href="#combined_elements" class="in-text-link navbutton">Combined Elements</a>
-        <a href="#product_listing" class="in-text-link navbutton">Product Listing Template</a>
-        <a href="#checkout" class="in-text-link navbutton">Checkout Template</a>
+        <a href="pages/product_list.html" class="in-text-link navbutton">Product Listing Template</a>
+        <a href="pages/checkout_cart.html" class="in-text-link navbutton">Checkout Template</a>
         <a href="#citations" class="in-text-link navbutton">Citations</a>
       </nav>
     </div>
   </header>
 
+  <section id="Git_Link" class="title_section">
+    <h2>Git Link</h2>
+    <p>https://github.com/StacityV/IAT339</p>
+  </section>
   <!-- INTERACTIVE ELEMENTS SECTION // -->
   <section id="interactive_elements">
     <div class="title_section">
@@ -65,7 +69,12 @@
       <code>&lt;a href="#" class="button"&gt;Smart Phones&lt;/a&gt;</code>
 
       <h4>Rendered element:</h4>
-      <a class="button-nav" href="#product_listing">Smart Phones</a>
+      <div class="header-menu">
+        <nav>
+          <a href="#product_listing">Smart Phones</a>
+        </nav>
+      </div>
+
     </section>
 
     <section class="element">
@@ -138,23 +147,42 @@
       <h2>Text Elements</h2>
     </div>
 
-    <section class="element">
+    <section class="element style_heading">
       <h3>Headings</h3>
-      
-      <div class="heading_h2">
-        <h2>This is the h2 level heading</h2>
-      </div>
-      <div class="heading_h3">
-        <h3>This is the h3 level heading</h3>
-      </div>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;h2&gt;This is the h2 level heading&lt;/h2&gt;
+        &lt;h3&gt;This is the h3 level heading&lt;/h3&gt;
+        &lt;h4&gt;This is the h4 level heading&lt;/h4&gt;
+        &lt;h5&gt;This is the h5 level heading&lt;/h5&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
 
+      <h4>Rendered element:</h4>
+      <h2>This is the h2 level heading</h2>
+      <h3>This is the h3 level heading</h3>
       <h4>This is the h4 level heading</h4>
-
       <h5>This is the h5 level heading</h5>
     </section>
 
     <section class="element">
       <h3>Paragraphs</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;p&gt;
+          A15 Bionic, with a &lt;em&gt;5‑core GPU&lt;/em&gt;, powers all the latest features
+          and makes graphically intense games and AR apps feel ultra‑fluid. An
+          updated internal design delivers better thermal efficiency, so you can
+          stay in the action longer.
+          &lt;/p&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
       <p>
         A15 Bionic, with a <em>5‑core GPU</em>, powers all the latest features
         and makes graphically intense games and AR apps feel ultra‑fluid. An
@@ -166,6 +194,19 @@
 
     <section class="element">
       <h3>Numbered Lists</h3>
+      <h4>CSS selector:</h4>
+      <p></p>
+      <h4>Sample code:</h4>
+      <code>
+        &lt;ol&gt;
+        &lt;li>Phones&lt;/li&gt;
+        &lt;li>PCs&lt;/li&gt;
+        &lt;li>Pads&lt;/li&gt;
+          &lt;/ol&gt;
+      </code>
+      <!-- sample code of empty space to enter text-->
+
+      <h4>Rendered element:</h4>
 
       <ol>
         <li>Phones</li>
@@ -189,18 +230,26 @@
       <p></p>
       <h4>Sample Code:</h4>
       <code>
-          &lt;a href="#"&gt;Smart Phones&lt;/a&gt; &lt;a
-          href="#"&gt;Tablets&lt;/a&gt; &lt;a href="#"&gt;Watches&lt;/a&gt;
-          &lt;a href="#"&gt;TVs&lt;/a&gt; &lt;a href="#"&gt;PCs&lt;/a&gt;
-        </code>
+        &lt;a href="../home.html"&gt;HOME&lt;/a&gt;
+        &lt;a href="../pages/phone_list.html"&gt;Smart Phones&lt;/a&gt;
+        &lt;a href="pages/womenProducts.html"&gt;Pads&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;Laptops&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;Macs&lt;/a&gt;
+        &lt;a href="pages/kidsProducts.html"&gt;PCs&lt;/a&gt;
+        &lt;a href="pages/about.html"&gt;ABOUT US&lt;/a&gt;
+      </code>
       <h4>Rendered element:</h4>
-      <nav>
-        <a class="button-nav" href="#">Smart Phones</a>
-        <a class="button-nav" href="#">Tablets</a>
-        <a class="button-nav" href="#">Watches</a>
-        <a class="button-nav" href="#">TVs</a>
-        <a class="button-nav" href="#">PCs</a>
-      </nav>
+      <div class="header-menu">
+        <nav>
+          <a href="../home.html">HOME</a>
+          <a href="../pages/phone_list.html">Smart Phones</a>
+          <a href="pages/womenProducts.html">Pads</a>
+          <a href="pages/kidsProducts.html">Laptops</a>
+          <a href="pages/kidsProducts.html">Macs</a>
+          <a href="pages/kidsProducts.html">PCs</a>
+          <a href="pages/about.html">ABOUT US</a>
+        </nav>
+      </div>
     </section>
 
     <section class="element" id="product_listing">
@@ -371,8 +420,8 @@
         <h3>About company</h3>
         <div>
           The company was many focus on second-hand electronic devices trade.
-          Our platform provides a convenient and efficient way for individuals to purchase used 
-          smartphones, laptops, tablets and other electronic devices. 
+          Our platform provides a convenient and efficient way for individuals to purchase used
+          smartphones, laptops, tablets and other electronic devices.
           Although its a company selling old products, we still hoping to give a
           sense of high-end to enhance our customers confidence to choose our
           company. So we our web will be clean, simple but well-organized,
@@ -381,8 +430,10 @@
         </div>
         <br>
         <div>
-          Our company was committed to deliver latest technolgy producets at lowest price. The site's target audience is individuals looking to purchase used electronic devices. Like consumers who are on a limited 
-          budget but need electronic devices, including students and young adults who are new to the work. It may also be electronics 
+          Our company was committed to deliver latest technolgy producets at lowest price. The site's target audience is
+          individuals looking to purchase used electronic devices. Like consumers who are on a limited
+          budget but need electronic devices, including students and young adults who are new to the work. It may also
+          be electronics
           enthusiasts who are obsessed with older devices that are no longer available on the regular market.
         </div>
         <br>
@@ -428,16 +479,19 @@
         <li>
           Samsung GalaxyZ Fold4, 2022.
           Retrieved from
-          <a href="https://www.samsung.com/ca/smartphones/galaxy-z-fold4/">https://www.samsung.com/ca/smartphones/galaxy-z-fold4/</a>
+          <a
+            href="https://www.samsung.com/ca/smartphones/galaxy-z-fold4/">https://www.samsung.com/ca/smartphones/galaxy-z-fold4/</a>
         </li>
         <li>
           OPPO Find N2 Flip, 2022.
           Retrieved from
-          <a href="https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/">https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/</a>
+          <a
+            href="https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/">https://www.oppo.com/cn/smartphones/series-find-n/find-n2-flip/</a>
         </li>
         <li>
           About_Team Image. 2017. <strong>TuXingTianXia</strong>. Retrieved
-          from <a href="https://www.photophoto.cn/sucai/25774952.html">https://www.photophoto.cn/sucai/25774952.html</a>.
+          from <a
+            href="https://www.photophoto.cn/sucai/25774952.html">https://www.photophoto.cn/sucai/25774952.html</a>.
         </li>
         <li>
           Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved
