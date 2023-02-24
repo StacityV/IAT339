@@ -9,7 +9,7 @@
 
 .product-card{
   flex:1;
-  flex-basis: 400px;
+  flex-basis: 330px;
 }
 
 .product_listing_products img{
@@ -60,3 +60,8 @@
   text-decoration: underline;
 }
 /* product card section stop
+
+/* footer section */
+.footer-menu{
+  margin-top: 5 0rem;
+}

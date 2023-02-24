@@ -61,6 +61,14 @@ main{
     margin:auto;
 }
 
+
+.element {
+    padding-bottom: 2rem;
+    /* border-top: 0.15rem solid black; */
+    max-width: 1500px;
+    margin: auto;
+}
+
 .common-button {
     display: inline-block;
     padding: 0.5rem;
@@ -237,9 +245,30 @@ nav .current_page{
 }
 /* header section responsib end*/
 
+/* current_page_path start*/
+.current_page_path{
+    padding-top: 2rem;
+}
+
+.current_page_path a{
+
+    color:#424245;
+    transition: all 1s;
+    font-size:0.8rem;
+    text-decoration: none;
+}
+
+.current_page_path a:hover, .current_page_path a:focus{
+   color: rgb(185,45,50);
+   text-decoration: underline;
+}
+
+/* current_page_path end */
+
 /* footer menu part start*/
 footer{
     background-color: #e4e4e4;
+    margin-top: 2rem;
 }
 
 .footer-menu{

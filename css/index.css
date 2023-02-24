@@ -15,7 +15,7 @@
 
 .hero-section h2{
     font-size:2rem;
-    text-shadow: 3px 3px #054C45;
+    text-shadow: 2px 2px #38978e;
 }
 
 .hero-section p{
@@ -30,6 +30,7 @@
 .hero-button{
     color: white;
     border: 0.1rem solid white;
+    margin-top: 1rem;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -44,6 +45,7 @@
     background-color: red; */
     color: #424245;
     border: 0.1rem solid #424245;
+    
 }
 
 .collections-button:hover, .collections-button:focus {
@@ -84,7 +86,7 @@
 /* company description section start */
 .company-description{
     color: #424245;
-    max-width:1000px;
+    max-width:1500px;
     margin:2rem auto;
     padding:0 1rem
     /* border:1px solid red; */
@@ -92,7 +94,13 @@
 
 .company-description h2{
     font-size:2rem;
+    color:#424245
 }
+
+.company-description p{
+    max-width: 500px;
+}
+
 
 @media screen and (max-width:850px){
     .company-description h2{
