@@ -53,9 +53,9 @@ img {
 .about_audience_content{
   margin: 5rem;
   padding: 2rem;
-  color: #424245;
   text-align: center;
-  border: 0.3rem dotted #424245;
+  background-color: #424245;
+  color: #ffffff;
 }
 /* about_audience end*/
 @media (max-width: 900px) {
