@@ -341,6 +341,10 @@ footer {
     margin: 0.5rem;
 }
 
+.footer-menu nav {
+    text-align: left    ;
+}
+
 .footer-menu div {
     justify-content: space-between;
 }
@@ -363,6 +367,10 @@ footer>div:nth-of-type(2) {
     margin: auto;
     padding: 1.5rem 0rem;
 }
+
+/* *{
+    border: 0.1rem solid red;   
+} */
 
 /* footer *{
     border: 0.1rem solid red;
