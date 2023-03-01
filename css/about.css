@@ -1,3 +1,4 @@
+/* page title start*/
 .about_us_section {
   background-color: #ffffff;
   color: #424245;
@@ -6,6 +7,7 @@
   align-items: center;
   justify-content: center;
 }
+/* page title end */
 .about_us_text {
   font-size: 36px;
   font-weight: bold;
@@ -20,6 +22,7 @@
   color: #ffffff;
   text-align: center;
 }
+/* about_mission end*/
 /* about_team */
 .about_team{
   display: flex;
@@ -27,12 +30,12 @@
   align-items: center;
   margin: 5rem;
   margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 .about_team_image{
   max-width: 25rem;
   min-width: 20rem;
   width: 35%;
-  margin: 1rem;
   border-radius: 1rem;
 }
 .about_team_content{
@@ -41,11 +44,20 @@
   width: 40%;
   text-align: left;
 }
+/* about_team end*/
 img {
   width: 100%;
   border-radius: 10px;
 }
-
+/* about_audience */
+.about_audience_content{
+  margin: 5rem;
+  padding: 2rem;
+  color: #424245;
+  text-align: center;
+  border: 0.3rem dotted #424245;
+}
+/* about_audience end*/
 @media (max-width: 900px) {
   .about_team{
     flex-direction: column;
