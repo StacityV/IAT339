@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.product-card-picture_1:hover::before {
+.product-card-picture_1::before {
   color: #ffffff;
   background-color: #ffffff77;
   border-radius: 0.5rem;
