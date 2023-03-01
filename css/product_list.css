@@ -1,3 +1,12 @@
+.smartphone_section {
+  background-color: #ffffff;
+  color: #424245;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
 /* product card section start*/
 .product_listing_products{
   display:flex;
