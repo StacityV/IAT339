@@ -24,7 +24,7 @@
 }
 
 .product-card-picture{
-  border: 0.1rem solid red;
+  /* border: 0.1rem solid red; */
   position: relative;
   text-align: center;
 }
