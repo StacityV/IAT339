@@ -25,6 +25,53 @@
 
 .product-card-picture{
   border: 0.1rem solid red;
+  position: relative;
+  text-align: center;
+}
+
+.product-card-picture_1:hover::before {
+  color: #ffffff;
+  content: "80% New iPhone 14 \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-card-picture_2:hover::before {
+  color: #ffffff;
+  content: "90% New Xiaomi 12s Ultra \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-card-picture_3:hover::before {
+  color: #ffffff;
+  content: "70% New Samsung Galaxy Fold4 \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-card-picture_4:hover::before {
+  color: #ffffff;
+  content: "90% New OPPO Find N2 Flip \A Click for Detail";
+  white-space: pre;
+  z-index: 1000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
 }
 
 .product-card {
