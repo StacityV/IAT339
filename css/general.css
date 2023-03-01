@@ -79,7 +79,7 @@ main {
 .common-button:hover,
 .common-button:focus {
     border-radius: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .out_section_button {
@@ -165,7 +165,7 @@ main {
     margin: 0.5rem;
 }
 
-.mobile-icon{
+.mobile-icon {
     font-size: 0.75rem;
 }
 
@@ -250,6 +250,38 @@ nav .current_page {
 
     .header-logo>div:nth-of-type(2) {
         display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header-logo>div:nth-of-type(3) {
+        width: 15rem;
+    }
+
+    .header-logo>div:nth-of-type(1),
+    .header-logo>div:nth-of-type(2),
+    .header-logo>div:nth-of-type(4) {
+        width: 50rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header-logo>div:nth-of-type(3) {
+        width: 20rem;
+    }
+
+    .header-logo>div:nth-of-type(1),
+    .header-logo>div:nth-of-type(2),
+    .header-logo>div:nth-of-type(4) {
+        width: 50rem;
+    }
+
+    .footer-menu nav{
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        flex-direction: column;
     }
 }
 

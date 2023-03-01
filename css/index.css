@@ -34,6 +34,8 @@
     color: white;
     border: 0.1rem solid white;
     margin-top: 1rem;
+    width: 16rem;
+    text-align: center;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -46,9 +48,11 @@
 .collections-button{
     /* margin-top: 10rem;
     background-color: red; */
+    background-color: rgb(255, 255, 255);
     color: #424245;
     border: 0.1rem solid #424245;
-    
+    width: 8rem;
+    text-align: center;
 }
 
 .collections-button:hover, .collections-button:focus {
@@ -99,6 +103,10 @@
         text-shadow: 2px 2px #38978e;
     }
 
+    .common-button{
+        font-size: 1rem;
+    }
+
     .company-description h2{
         font-size:1.5rem;
     }
@@ -107,11 +115,12 @@
         flex-direction: column;
         height:120vh;
     }
+
 }
 
 @media screen and (max-width:650px){
     .hero-section{
-        height:70vw;
+        height:90vw;
         padding-left:4rem;
     }
 
@@ -121,8 +130,12 @@
     }
 
     .hero-section h2{
-        font-size:1.5rem;
+        font-size:1.3rem;
         text-shadow: 1.2px 1.2px #38978e;
+    }
+
+    .common-button{
+        font-size: 0.8rem;
     }
 
     .company-description h2{
@@ -137,7 +150,7 @@
 
 @media screen and (max-width:450px){
     .hero-section{
-        height:100vw;
+        height:105vw;
         padding-left:2rem;
     }
 
@@ -147,12 +160,17 @@
     }
 
     .hero-section p{
-        width: 8rem;
+        font-size: 0.5rem;
+        width: 12rem;
         line-height: 1.5rem;
     }
 
+    .common-button{
+        font-size: 0.5rem;
+    }
+
     .company-description h2{
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
 }
 /* hero section end*/
@@ -190,6 +208,7 @@
     margin: auto;
     padding-top: 5rem;
     padding-bottom: 1rem;
+    padding: 0rem 2rem;
 }
 
 .collections>div{
