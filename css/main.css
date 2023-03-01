@@ -84,21 +84,11 @@ code {
 */
 
 /* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5rem;
-  text-decoration: none;
-  background-color: #ccc;
-  transition:all 0.5s;
-  border-radius: 0.5rem;
-  
-}
 
-.button-nav:hover, .button-nav:focus {
+.common-button:hover, .common-button:focus {
   background-color: rgb(0, 0, 0);
   color:white;
   border-radius:20px;
-  font-weight:bold;
 }
 
 section{
