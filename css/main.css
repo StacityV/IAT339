@@ -126,7 +126,7 @@ section{
 }
 
 form{
-  border: 0.5rem solid #AC292B;
+  border: 0.5rem solid #FF0000;
   border-radius: 1rem;
   overflow: hiddem;
   width: 50rem;
@@ -436,11 +436,6 @@ input[type=number] {
   background-color: #424245;
 }
 
-.demofontcolor{
-  background-color: white;
-  color: #1D1D1F;
-}
-
 .brand_component h2{
   color: #424245;
 }
@@ -455,4 +450,19 @@ input[type=number] {
 .demoblack{
   color: #ffffff;
   background-color: black;
+}
+.democolorccc{
+  background-color: #ccc;
+}
+.democolorFF0000{
+  color: #ffffff;
+  background-color: #FF0000;
+}
+.democolor054C45{
+  color: #ffffff;
+  background-color: #054C45;
+}
+.democolor38978e{
+  color: #ffffff;
+  background-color: #38978e;
 }
