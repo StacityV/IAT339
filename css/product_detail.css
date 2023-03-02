@@ -175,7 +175,71 @@ h1>span{
     border-radius:13px;
 }
 
+.review h2{
+    color: black;
+    padding-bottom: 1rem;
+  
+    
+}
 
+.review h3{
+    color: #434345;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    
+
+    
+}
+
+.review h4{
+    color: black;
+    font-size: 0.8rem;
+
+    
+}
+
+.review p{
+    padding-bottom: 1rem;
+
+    
+}
+
+
+.review {
+    padding-left: 1rem;
+    padding-top: 6rem;
+}
+
+.profile h2{
+    color: black;
+  
+    
+}
+
+.profile h3{
+    color: #434345;
+    font-size: 1rem;
+
+    
+}
+
+.profile h4{
+    color: black;
+    font-size: 0.8rem;
+
+    
+}
+
+.profile p{
+    padding-bottom: 1rem;
+
+}
+
+.profile {
+    padding-left: 1rem;
+
+}
 
 @media screen and (max-width:850px){
     .aProduct-container{
