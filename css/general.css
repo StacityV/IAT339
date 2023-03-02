@@ -390,7 +390,6 @@ footer>div:nth-of-type(2) {
 } */
 /* footer menu part end*/
 
-.style-nav{
-    padding: 0%;
-    margin: 0%;
+.style-image img{
+    border-radius: 1rem;
 }
