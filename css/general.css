@@ -6,8 +6,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-h1 {}
-
 h2 {
     color: white;
 }
@@ -20,8 +18,6 @@ h3 {
     font-size: 0.9rem;
     color: #424245;
 }
-
-h4 {}
 
 del {
     font-size: 0.9rem;
@@ -49,10 +45,6 @@ p {
     font-size: 0.8rem;
     line-height: 1.5;
 }
-
-ul {}
-
-li {}
 
 input[type=text]:hover, input[type=text]:focus{
     background-color:#cecece;
@@ -165,7 +157,7 @@ main {
 /* header promotion part end*/
 
 /* header logo part start*/
-.logo_image {}
+/* .logo_image {} */
 
 .header-logo>div:nth-of-type(1),
 .header-logo>div:nth-of-type(2),
@@ -397,3 +389,8 @@ footer>div:nth-of-type(2) {
     border: 0.1rem solid red;
 } */
 /* footer menu part end*/
+
+.style-nav{
+    padding: 0%;
+    margin: 0%;
+}

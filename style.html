@@ -7,26 +7,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
+  <link href="css/product_list.css" rel="stylesheet" />
 
 </head>
 
 <body>
   <header>
-    <div class="topnavtag">
-      <div class="headerTag element">
-        <h1>TeCycle</h1>
+    <div class="style-nav">
+      <div class="header-logo">
+        <div class="mobile-icon"><a href=""><i class="fa-solid fa-bars-staggered"></i></a></div>
+        <div><a href="home.html">TeCycle</a></div>
+        <div><a href="home.html"><img src="images/logo.png"></a></div>
+        <div>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <!-- <a href="#">SIGN IN</a> -->
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
       </div>
-
-      <nav class="navtag element">
-        <a href="#interactive_elements" class="in-text-link navbutton">Interactive Elements</a>
-        <a href="#text_elements" class="in-text-link navbutton">Text Elements</a>
-        <a href="#combined_elements" class="in-text-link navbutton">Combined Elements</a>
-        <a href="pages/product_list.html" class="in-text-link navbutton">Product Listing Template</a>
-        <a href="pages/checkout_cart.html" class="in-text-link navbutton">Checkout Template</a>
-        <a href="#citations" class="in-text-link navbutton">Citations</a>
-      </nav>
+      
+      <div class="header-menu">
+        <nav>
+          <a href="#interactive_elements" class="in-text-link navbutton">Interactive Elements</a>
+            <a href="#text_elements" class="in-text-link navbutton">Text Elements</a>
+            <a href="#combined_elements" class="in-text-link navbutton">Combined Elements</a>
+            <a href="pages/product_list.html" class="in-text-link navbutton">Product List Template</a>
+            <a href="pages/checkout_cart.html" class="in-text-link navbutton">Checkout Template</a>
+            <a href="#citations" class="in-text-link navbutton">Citations</a>
+        </nav>
+      </div>
     </div>
   </header>
+  
 
   <section id="Git_Link" class="title_section">
     <h2>Git Link</h2>
@@ -47,7 +59,7 @@
       <h4>Sample code:</h4>
       <code>
           &lt;p&gt;My hometwon is a beatiful city, &lt;a
-          href="#">Nanjing&lt;/a&gt;&lt;/p&gt;</code>
+          href="#"&gt;Nanjing&lt;/a&gt;&lt;/p&gt;</code>
       <!-- code sample, &lt; for "<" and &gt; for ">"-->
 
       <h4>Rendered element:</h4>
@@ -227,9 +239,19 @@
       <h3>Main Navigation</h3>
 
       <h4>CSS selector:</h4>
-      <p></p>
+      <p>.header-menu, .header-logo</p>
       <h4>Sample Code:</h4>
       <code>
+        &lt;div class="header-logo"&gt;
+        &lt;div class="mobile-icon" onclick="toggleMenu()"&gt;&lt;a href=""&gt;&lt;i class="fa-solid fa-bars-staggered"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;a href="home.html"&gt;TeCycle&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;a href="home.html"&gt;&lt;img src="images/logo.png"&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;div&gt;
+        &lt;a href="#"&gt;&lt;i class="fa-solid fa-magnifying-glass"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="#"&gt;&lt;i class="fa-solid fa-user"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href="pages/checkout_info_page.html"&gt;&lt;i class="fa-solid fa-cart-shopping"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
         &lt;a href="../home.html"&gt;HOME&lt;/a&gt;
         &lt;a href="../pages/phone_list.html"&gt;Smart Phones&lt;/a&gt;
         &lt;a href="pages/womenProducts.html"&gt;Pads&lt;/a&gt;
@@ -239,10 +261,21 @@
         &lt;a href="pages/about.html"&gt;ABOUT US&lt;/a&gt;
       </code>
       <h4>Rendered element:</h4>
+      <div class="header-logo">
+        <div class="mobile-icon" onclick="toggleMenu()"><a href=""><i class="fa-solid fa-bars-staggered"></i></a></div>
+        <div><a href="home.html">TeCycle</a></div>
+        <div><a href="home.html"><img src="images/logo.png"></a></div>
+        <div>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <!-- <a href="#">SIGN IN</a> -->
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="pages/checkout_info_page.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
       <div class="header-menu">
         <nav>
-          <a href="../home.html">HOME</a>
-          <a href="../pages/phone_list.html">Smart Phones</a>
+          <a href="#">HOME</a>
+          <a href="pages/phone_list.html">Smart Phones</a>
           <a href="pages/womenProducts.html">Pads</a>
           <a href="pages/kidsProducts.html">Laptops</a>
           <a href="pages/kidsProducts.html">Macs</a>
@@ -258,60 +291,64 @@
       <h4>CSS selector:</h4>
       <p></p>
       <h4>Sample Code:</h4>
-      <code>
-        &lt;div class="container"&gt;
-          &lt;div class="zfold4"&gt;
-            &lt;a href="" class="productViewfold4"&gt;Samsung >&lt;/a&gt;
-            &lt;/div&gt;
-  
-            &lt;div class="mi12u"&gt;
-            &lt;a href="" class="productViewxm12u"&gt;Xiaomi >&lt;/a&gt;
-            &lt;/div>
-  
-            &lt;div class="iphone14"&gt;
-            &lt;a href="" class="productViewip14p"&gt;Apple >&lt;/a&gt;
-            &lt;/div&gt;
-  
-            &lt;div class="findn2flip"&gt;
-            &lt;a href="" class="productViewofn2f"&gt;OPPO >&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;/div&gt;
-        </code>
+      <!-- <code></code> -->
       <h4>Rendered element:</h4>
 
-      <div class="container">
-        <div class="zfold4">
-          <a href="" class="productViewfold4">Samsung ></a>
-          <!-- <div class="productImage"><img src="images/fold4.png" alt="Fold4 image"></div> -->
-          <!-- <div class="productName">Galaxy Z Fold4 | 95% New</div>
-            <div class="productColor">Graygreen</div>
-            <div class="productPrice">$1599</div> -->
-        </div>
+      <section class="element" id="product_listing">
 
-        <div class="mi12u">
-          <a href="" class="productViewxm12u">Xiaomi ></a>
-          <!-- <div class="productImage"><img src="images/m12u.png" alt="Fold4 image"></div> -->
-          <!-- <div class="productName">Xiaomi 12Ultra | Open Box</div>
-            <div class="productColor">Black</div>
-            <div class="productPrice">$1399</div> -->
-        </div>
+        <section class="product_listing_brend">
+          <div class="product_listing_products">
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_1">
+                      <img src="images/14p.png" alt="picture about iPhones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">Apple iPhone 14Pro Max | Gold</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 1799.99</del> CAD 1499.99 </a></div>
+              </div>
+     
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="product_detail_mi12u.html">
+                    <div class="product-card-picture_2">
+                      <img src="images/m12u.png" alt="picture about Xiaomi Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="product_detail_mi12u.html">Xiaomi 12S Ultra | 12+256 | Gold</a></div>
+                <div class="product-card-price"><a href="product_detail_mi12u.html"><del>CAD 1399.99</del> CAD 999.99 </a></div>
+              </div>
+    
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_3">
+                      <img src="images/fold4.png" alt="picture about Samsung Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">Samsung Galaxy Fold4 12+512 | Green</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 2399.99</del> CAD 1599.99 </a></div>
+              </div>
+     
+              <div class="product-card">
+                <div class="product-card-picture">
+                  <a href="">
+                    <div class="product-card-picture_4">
+                      <img src="images/fn2f.png" alt="picture about OPPO Phones">
+                    </div>
+                  </a>
+                </div>
+                <div class="product-card-title"><a href="">OPPO Find N2 Flip | Purple</a></div>
+                <div class="product-card-price"><a href="m12su_product_detail.html"><del>CAD 1099.99</del> CAD 799.99 </a></div>
+              </div>
+          </div>
+        </section>
+      </section>
 
-        <div class="iphone14">
-          <a href="" class="productViewip14p">Apple ></a>
-          <!-- <div class="productImage"><img src="images/14p.png" alt="Fold4 image"></div> -->
-          <!-- <div class="productName">iPhone 14 Pro Max| 90% New</div>
-            <div class="productColor">Blue</div>
-            <div class="productPrice">$1499</div> -->
-        </div>
-
-        <div class="findn2flip">
-          <a href="" class="productViewofn2f">OPPO ></a>
-          <!-- <div class="productImage"><img src="images/fn2f.png" alt="Fold4 image"></div> -->
-          <!-- <div class="productName">OPPO Find N2 Flip | Open Box</div>
-            <div class="productColor">Gold</div>
-            <div class="productPrice">$1099</div> -->
-        </div>
-      </div>
     </section>
 
     <section class="element payformSection" id="checkout">
