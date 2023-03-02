@@ -132,19 +132,7 @@ form{
   width: 50rem;
 }
 
-input[type=text]:hover, input[type=text]:focus{
-  background-color:#cecece;
-}
 
-input[type=text] {
-  margin-top: 0.5rem;
-  width: 100%;
-  margin-bottom: 1.05rem;
-  padding: 1rem;
-  border: 0.1rem solid #ccc;
-  border-radius: 0.5rem;
-  transition: all 1s;
-}
 
 /* --------------------------heading nav tag----------------------*/
 
@@ -312,16 +300,6 @@ input[type=text] {
   color: #222222;
 }
 
-
-
-input[type=number] {
-  margin-top: 0.5rem;
-  /* width: 50%; */
-  margin-bottom: 1.05rem;
-  padding: 1rem;
-  border: 0.1rem solid #ccc;
-  border-radius: 0.5rem;
-}
 
 .payformshort{
   display:flex;

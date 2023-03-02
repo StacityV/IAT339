@@ -1,72 +1,212 @@
-.product_detail {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    height: 35vw;
-    background-position: center;
-    max-width: 1500px;
-    margin: auto;
+main{
+    /* border:1px solid red; */
+    padding:1rem;
+    max-width:1500px;
+    margin:auto;
+}
+
+.pay_step{
     padding-top: 2rem;
+    text-align: center;
 }
 
-.product_detail_card {
-    background-image: url("../images/m12u_product_detail.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.pay_step del{
+    color: #999;
+}
+
+.pay_step a {
+    color: #424245;
+    transition: all 1s;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin: 2%
+}
+
+.pay_step a:hover,
+.pay_step a:focus {
+    color: rgb(185, 45, 50);
+    text-decoration: underline;
+}
+
+.current_page {
+    padding:0.12rem 0.2rem;
+    border: 0.15rem solid #918d8d;
+    border-radius: 0.75rem;
+
+}
+
+/* aProduct container */
+.aProduct-container{
+    display:flex;
+    gap:5vw;
+}
+
+/* .aProduct-container, .aProduct-information, .payform{
+    width: 70vw;
+} */
+
+
+.aProduct-container img{
+    width:100%;
+}
+
+.aProduct-images{
+    width:60%;
+    display:flex;
+    gap:0.5rem;
+    /* border-radius: 0.5rem; */
+    /* border: 0.1rem solid red; */
+    margin-top: 1.5rem;
+}
+
+.nail-images{
+    display:flex;
+    flex-direction: column;
+    gap:0.65rem;
+    
+}
+
+
+.nail-images:hover{
+    cursor: pointer;
+}
+
+
+/* information section start*/
+.aProduct-information{
+    padding-left: 2rem;
+    width:40%;
+}
+
+.aProduct-information>div:nth-of-type(2) p{
+    color:#434345;
+    font-size: 0.7rem;
+}
+
+h1{
+    color: #38978e;
+    font-size:1.5rem;
+}
+
+h1>span{
+    font-size:0.8rem;
+    color:black;
+    display:block;
+    margin:0.3rem 0;
+}
+
+.price{
+    color: rgb(187,42,54);
+    font-weight:bold;
+    font-size:0.9rem;
+}
+
+.price>del{
+    color:black;
+}
+
+.product-attribute-label{
+    color:#999;
+    font-size:0.8rem;
+}
+
+.option-collection ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap:1rem;
+  /* border:1px solid red; */
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.option-collection li{
+    flex-basis: 100px;
+}
+
+.option-collection li a{
+    display:inline-block;
+    width:100%;
+    border:1px solid rgb(172, 170, 170);
+    text-align:center;
+    padding:0.3rem 0;
+    font-size:0.8rem;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+
+  .option-collection li a:hover, .option-collection li a:focus{
+    background: rgb(211, 211, 211);
+    border: 0.1rem solid black;
     border-radius: 0.5rem;
+    /* color:white; */
+  }
+
+.option-collection{
+    margin:1rem 0;
 }
 
-.product_detail_name {
-    background-color: #F2F2F2;
-    border-radius: 0.5rem;
+.option-collection a{
+    color:#434345;
 }
 
-.product_detail_section {
-    flex: 1;
-}
-
-.product_detail_name {}
-
-.product_detail_name>h2, .product_detail_name>h3, .product_detail_section>div {
-    margin-left: 5rem;
-
-}
-
-.product_detail_name h2{
-    color: #434345;
+.option-section>div:nth-of-type(1){
     margin-top: 2rem;
 }
 
-.product_detail_name h3{
-    color: #434345;
-    margin-top: 1rem;
+/* .proceed_btn{
+    text-align: end;
+} */
+
+.submit_btn{
+    margin-top: 3rem;
+    background-color: #38978e;
+    color: #ffffff;
+    border: 0.1rem solid #43aaa08f;
+    width: 30vw;
+    text-align: center;
 }
 
-.common-button  {
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-
+.submit_btn:hover, .submit_btn:focus {
+    background-color: #fdfdff;
+    border: 0.1rem solid #424245b6;
+    color: #000000;
+    border-radius:13px;
 }
 
-.common-button :hover {
 
-}
 
-.color_green:before{
-    content: "";
-    width: 15px;
-    height: 15px;
-    background-color: green;
-    display: inline-block;
-    border-radius: 50%;
-}
+@media screen and (max-width:850px){
+    .aProduct-container{
+        flex-direction: column;
+    }
 
-.color_red:before{
-    content: "";
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    display: inline-block;
-    border-radius: 50%;
+    .aProduct-images{
+    
+        width:100%;
+       
+    }
+
+    .aProduct-information{
+        width:100%;
+        margin-left:0vw;
+    }
+
+    .aProduct-images{
+        flex-direction: column-reverse;
+    }
+
+    .aProduct-images .nail-images{
+        /* display:flex; */
+        flex-direction: row;
+    }
+
+    .nail-images{
+        /* overflow: hidden; */
+        overflow-x: auto;
+        /* border:1px solid red; */
+    }
+
+   
 }
