@@ -78,7 +78,7 @@ main{
     width:40%;
 }
 
-.aProduct-information>div:nth-of-type(2) p{
+.aProduct-information>div:nth-of-type(2) p, .client-comment{
     color:#434345;
     font-size: 0.7rem;
 }
