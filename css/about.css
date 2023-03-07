@@ -18,8 +18,9 @@
   margin: 5rem;
   margin-top: 3rem;
   padding: 2rem;
-  background-color: #424245;
-  color: #ffffff;
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
   text-align: center;
 }
 /* about_mission end*/
@@ -54,8 +55,8 @@ img {
   margin: 5rem;
   padding: 2rem;
   text-align: center;
-  background-color: #424245;
-  color: #ffffff;
+  /* background-color: #424245; */
+  color: #424245;
 }
 /* about_audience end*/
 @media (max-width: 900px) {
@@ -70,4 +71,69 @@ img {
     width: 100%;
     margin-top: 3rem;
   }
+}
+
+/* Contact us */
+.Contact_us {
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
+  padding: 1rem;
+  margin: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contact_info{
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  color: #424245;
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.contact_info h2{
+  color: #424245;
+}
+
+.Contact_us_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.message{
+  height: 5rem;
+}
+.contact_form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit input{
+  margin-top: 1rem;
+  background-color: #38978e;
+  border: 0.1rem solid #43aaa08f;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.submit input:hover {
+  background-color: #fdfdff;
+  border: 0.1rem solid #424245b6;
+  color: #000000;
+  border-radius:13px;
+}
+
+.contact_info {
+  text-align: center;
+  margin-top: 0.5rem;
 }

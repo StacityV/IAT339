@@ -97,3 +97,43 @@ input[type=number] {
         flex-direction: column;
     }
 }
+
+/* -------------------Product Image--------------------------------------*/
+
+.product-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-image-phone {
+	margin-bottom: 20px;
+}
+
+.free-shipment {
+    margin: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.shipment-icon {
+    width: 5rem;
+    margin-right: 1.5rem;
+}
+
+.free-shipment p, .free-protect p{
+    width: 80%;
+}
+
+.free-protect {
+    margin: 1.5rem;
+    margin-top: 0rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.protect-icon {
+    width: 5rem;
+    margin-right: 1.5rem;
+    margin-left: 0.2rem;
+}
