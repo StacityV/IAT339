@@ -2,6 +2,12 @@
     border: 0.1rem solid red;
 } */
 /* hero section start*/
+
+main{
+    padding: 0rem;
+}
+
+
 .hero-section{
     background-image:url("../images/s23_index.jpg");
     background-size:cover;

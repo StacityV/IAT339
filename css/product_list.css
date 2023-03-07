@@ -13,6 +13,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   background-position: center;
+  justify-content: space-between;
 }
 
 .product-card-title a, .product-card-price a{
@@ -110,8 +111,9 @@
 }
 
 .product-card {
-  flex: 1;
-  flex-basis: 330px;
+  /* flex: 1;
+  flex-basis: 330px; */
+  width: 22%;
 }
 
 .product_listing_products img {
@@ -174,4 +176,18 @@
 /* footer section */
 .footer-menu {
   margin-top: 5 0rem;
+}
+
+@media screen and (max-width: 850px){
+  .product-card{
+    width: 45%;
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .product-card{
+    width: 98%;
+
+  }
 }

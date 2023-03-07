@@ -87,6 +87,7 @@ h1{
     justify-content: flex-end;
     border: 2rem;
     padding-top: 2rem;
+    gap:1rem;
     
     /* max-width: 850px;
     margin: auto; */
