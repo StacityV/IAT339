@@ -175,6 +175,20 @@ h1>span{
     border-radius:13px;
 }
 
+.comment_btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cmt_btn{
+    width: 20%;
+}
+
+.cmt_box{
+    height: 10rem;
+
+}
+
 .review-submit{
     margin-top: 1rem;
     margin-bottom: 1rem;
