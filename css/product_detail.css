@@ -175,6 +175,26 @@ h1>span{
     border-radius:13px;
 }
 
+.review-submit{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #38978e;
+    color: #ffffff;
+    border: 0.1rem solid #43aaa08f;
+    width: 30vw;
+    text-align: center;
+    border-radius: 13px;
+
+}
+
+.review-submit:hover, .review-submit:focus{
+    background-color: #fdfdff;
+    border: 0.1rem solid #424245b6;
+    color: #000000;
+    border-radius:13px;
+}
+
+
 .review h2{
     color: black;
     padding-bottom: 1rem;
