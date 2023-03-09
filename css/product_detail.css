@@ -87,7 +87,7 @@ main{
     font-size: 0.7rem;
 }
 
-h1{
+.aProduct-information h1{
     color: #38978e;
     font-size:1.5rem;
 }
@@ -192,7 +192,10 @@ h1>span{
 
 .cmt_box{
     height: 10rem;
-
+    width: 100%;
+    border-radius: 0.75rem;
+    color: #434345;
+    padding: 1rem;
 }
 
 .review-submit{
