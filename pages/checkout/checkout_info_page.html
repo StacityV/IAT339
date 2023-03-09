@@ -9,7 +9,7 @@
     <link href="../../css/general.css" rel="stylesheet" />
     <link href="../../css/product_detail.css" rel="stylesheet" />
     <link href="../../css/checkout_info_page.css" rel="stylesheet" />
-    
+
     <script src="../../js/product_list_mi12u.js"></script>
     <script src="../../js/generalScrpt.js"></script>
 
@@ -30,11 +30,13 @@
         <div class="header-logo">
             <div class="mobile-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars-staggered"></i></div>
             <div><a href="../../home.html">TeCycle</a></div>
-            <div class="logo_image"><a href="../../home.html"><img src="../../images/logo.png" alt="logo image"></a></div>
+            <div class="logo_image"><a href="../../home.html"><img src="../../images/logo.png" alt="logo image"></a>
+            </div>
             <div>
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="#"><i class="fa-solid fa-user"></i></a>
-                <a href="checkout_price_page.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#" aria-label="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" aria-label="user"><i class="fa-solid fa-user"></i></a>
+                <a href="checkout_price_page.html" aria-label="shopping_cart"><i
+                        class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
         <div class="header-menu">
@@ -53,11 +55,18 @@
     <main>
 
         <!-- current current_page_path -->
-        <p class="element current_page_path"><a href="../../home.html">HOME</a> &gt; <a href="../product_list/product_list_phone.html">Smart
+        <p class="element current_page_path"><a href="../../home.html">HOME</a> &gt; <a
+                href="../product_list/product_list_phone.html">Smart
                 Phones</a> &gt; <a href="../product_detail/product_detail_mi12u.html">Xiaomi 12S Ultra</a></p>
 
-        <p class="element pay_step"><a href="../checkout/checkout_price_page.html"> ① Overview</a> <del>————————————————————</del><a
-                href="checkout_price_page.html" class=" current_page"> ② Address</a></p>
+        <section>
+            <div class="about_us_section">
+                <h1>Checkout</h1>
+            </div>
+        </section>
+
+        <p class="element pay_step"><a href="../checkout/checkout_price_page.html"> ① Overview</a>
+            <del>————————————————————</del><a href="checkout_price_page.html" class=" current_page"> ② Address</a></p>
         <!-- current current_page_path -->
 
         <div class="aProduct-container">
@@ -70,19 +79,20 @@
                         <div class="shipment-icon">
                             <img src="../../images/free_shipping_icon.png" alt="Free Shipping Icon">
                         </div>
-                        <p>Free Shipping: We offer free shipping regardless of the number or amount of items you purchase.</p>
+                        <p>Free Shipping: We offer free shipping regardless of the number or amount of items you
+                            purchase.</p>
                     </div>
                     <div class="free-protect">
                         <div class="protect-icon">
                             <img src="../../images/free-protect-icon.png" alt="Free packaging Icon">
                         </div>
-                        <p>Free packaging: We provide free and safe packaging to ensure that the products will not be damaged during transportation.</p>
+                        <p>Free packaging: We provide free and safe packaging to ensure that the products will not be
+                            damaged during transportation.</p>
                     </div>
                 </div>
             </div>
             <div class="product_detail">
                 <div class="product_detail_card product_detail_section">
-                    <h2></h2>
                 </div>
 
                 <div class="payform">
@@ -138,20 +148,22 @@
                     </div>
 
                     <div>
-                        <a href="../../pages/checkout/checkout_success_xiaomi.html" class="common-button submit_btn">Submit</a>
+                        <a href="../../pages/checkout/checkout_success_xiaomi.html"
+                            class="common-button submit_btn">Submit</a>
                     </div>
                 </div>
 
                 <div class="checkoutCart" id="#">
                 </div>
             </div>
+        </div>
     </main>
 
     <footer>
         <div class="footer-menu">
             <nav>
                 <div>
-                    <h3>Purchesing Product</h3>
+                    <h2>Purchesing Product</h2>
                     <a href="../product_list/product_list_phone.html">Smart Phones</a>
                     <a href="../product_list/product_list_phone.html">Pads</a>
                     <a href="../product_list/product_list_phone.html">Laptops</a>
@@ -159,11 +171,11 @@
                     <a href="../product_list/product_list_phone.html">PCs</a>
                 </div>
                 <div>
-                    <h3>About TeCycle</h3>
+                    <h2>About TeCycle</h2>
                     <a href="../about.html">Contact Us</a>
                 </div>
                 <div>
-                    <h3>Account Management</h3>
+                    <h2>Account Management</h2>
                     <a href="#">Sign In</a>
                     <a href="../checkout/checkout_price_page.html">View Cart</a>
                     <a href="">History Purchase</a>

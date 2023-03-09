@@ -33,9 +33,10 @@
       <div><a href="../../home.html">TeCycle</a></div>
       <div class="logo_image"><a href="../../home.html"><img src="../../images/logo.png" alt="logo image"></a></div>
       <div>
-        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="#"><i class="fa-solid fa-user"></i></a>
-        <a href="../checkout/checkout_info_page.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" aria-label="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" aria-label="user"><i class="fa-solid fa-user"></i></a>
+        <a href="../checkout/checkout_info_page.html" aria-label="shopping_cart"><i
+            class="fa-solid fa-cart-shopping"></i></a>
       </div>
     </div>
     <div class="header-menu">
@@ -54,40 +55,48 @@
   <main>
 
     <!-- current current_page_path -->
-    <p class="element current_page_path"><a href="../../home.html">HOME</a> &gt; <a href="../product_list/product_list_phone.html">Smart Phones</a> &gt;
+    <p class="element current_page_path"><a href="../../home.html">HOME</a> &gt; <a
+        href="../product_list/product_list_phone.html">Smart Phones</a> &gt;
       <a href="../product_detail/product_detail_ip14p.html">iPhone 14pro Max</a>
     </p>
 
-    <p class="element pay_step"><a href="checkout_price_page_iphone.html" class=" current_page"> ① Overview</a> <del>————————————————————</del><a href="checkout_info_page_iphone.html"> ② Address</a></p>
+    <section>
+      <div class="about_us_section">
+          <h1>Checkout</h1>
+      </div>
+  </section>
+
+    <p class="element pay_step"><a href="checkout_price_page_iphone.html" class=" current_page"> ① Overview</a>
+      <del>————————————————————</del><a href="checkout_info_page_iphone.html"> ② Address</a></p>
     <!-- current current_page_path -->
 
     <div class="aProduct-container">
       <div class="aProduct-images">
         <div class="product-section">
-            <div class="product-image-phone">
-                <img src="../../images/product_detail_ip14p/ip14p_detail_image_01.png" alt="iPhone14 image">
+          <div class="product-image-phone">
+            <img src="../../images/product_detail_ip14p/ip14p_detail_image_01.png" alt="iPhone14 image">
+          </div>
+          <div class="free-shipment">
+            <div class="shipment-icon">
+              <img src="../../images/free_shipping_icon.png" alt="Free Shipping Icon">
             </div>
-            <div class="free-shipment">
-                <div class="shipment-icon">
-                    <img src="../../images/free_shipping_icon.png" alt="Free Shipping Icon">
-                </div>
-                <p>Free Shipping: We offer free shipping regardless of the number or amount of items you purchase.</p>
+            <p>Free Shipping: We offer free shipping regardless of the number or amount of items you purchase.</p>
+          </div>
+          <div class="free-protect">
+            <div class="protect-icon">
+              <img src="../../images/free-protect-icon.png" alt="Free packaging Icon">
             </div>
-            <div class="free-protect">
-                <div class="protect-icon">
-                    <img src="../../images/free-protect-icon.png" alt="Free packaging Icon">
-                </div>
-                <p>Free packaging: We provide free and safe packaging to ensure that the products will not be damaged during transportation.</p>
-            </div>
+            <p>Free packaging: We provide free and safe packaging to ensure that the products will not be damaged during
+              transportation.</p>
+          </div>
         </div>
       </div>
       <div class="product_detail">
         <div class="product_detail_card product_detail_section">
-          <h2></h2>
         </div>
 
         <div class="payform">
-          <div class="checkoutCart" id="#">
+          <div class="checkoutCart">
 
             <h1> Subtotal </h1>
             <div class="price"> Color: White</div>
@@ -95,7 +104,7 @@
               <div class="firstitem">
                 <div class="checkoutCartName">iPhone 14pro Max</div>
                 <div class="checkoutCartQuantity">
-                  <input type="number" class="quantity" min="0" max="99" value="1" />
+                  <input type="number" class="quantity" min="0" max="99" value="1" aria-label="quantity" />
                 </div>
               </div>
 
@@ -111,38 +120,39 @@
           </div>
         </div>
 
-        <div class="checkoutCart" id="#">
+        <div class="checkoutCart">
         </div>
       </div>
   </main>
+
+
+  <footer>
+    <div class="footer-menu">
+      <nav>
+        <div>
+          <h2>Purchesing Product</h2>
+          <a href="../product_list/product_list_phone.html">Smart Phones</a>
+          <a href="../product_list/product_list_phone.html">Pads</a>
+          <a href="../product_list/product_list_phone.html">Laptops</a>
+          <a href="../product_list/product_list_phone.html">Macs</a>
+          <a href="../product_list/product_list_phone.html">PCs</a>
+        </div>
+        <div>
+          <h2>About TeCycle</h2>
+          <a href="../about.html">Contact Us</a>
+        </div>
+        <div>
+          <h2>Account Management</h2>
+          <a href="#">Sign In</a>
+          <a href="../checkout/checkout_price_page.html">View Cart</a>
+          <a href="#">History Purchase</a>
+        </div>
+      </nav>
+    </div>
+
+
+    <div>
+      <p>Copyright © 2023 TeCycle. All Right Reserved.</p>
+    </div>
+  </footer>
 </body>
-
-<footer>
-  <div class="footer-menu">
-    <nav>
-      <div>
-        <h3>Purchesing Product</h3>
-        <a href="../product_list/product_list_phone.html">Smart Phones</a>
-        <a href="../product_list/product_list_phone.html">Pads</a>
-        <a href="../product_list/product_list_phone.html">Laptops</a>
-        <a href="../product_list/product_list_phone.html">Macs</a>
-        <a href="../product_list/product_list_phone.html">PCs</a>
-      </div>
-      <div>
-        <h3>About TeCycle</h3>
-        <a href="../about.html">Contact Us</a>
-      </div>
-      <div>
-        <h3>Account Management</h3>
-        <a href="#">Sign In</a>
-        <a href="../checkout/checkout_price_page.html">View Cart</a>
-        <a href="#">History Purchase</a>
-      </div>
-    </nav>
-  </div>
-
-
-  <div>
-    <p>Copyright © 2023 TeCycle. All Right Reserved.</p>
-  </div>
-</footer>

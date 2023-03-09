@@ -18,7 +18,7 @@ h2 {
     color: black
 }
 
-h3 {
+footer h2, h3{
     font-size: 0.9rem;
     color: #424245;
 }
