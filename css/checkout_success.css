@@ -46,3 +46,12 @@ img{
 .success h3{
     margin: 0.5rem;
 }
+
+.submit_btn{
+    margin-top: 3rem;
+    background-color: #38978e;
+    color: #ffffff;
+    border: 0.1rem solid #43aaa08f;
+/*    width: 10vw;*/
+    text-align: center;
+}

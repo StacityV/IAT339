@@ -1,4 +1,8 @@
 /*    input styling    */
+
+/**{
+    border:1px solid red;
+}*/
 .userName {
     font-size: 1rem;
     margin-top: 6rem;
@@ -103,7 +107,7 @@ input[type=number] {
 .product-section {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+/*	align-items: center;*/
 }
 
 .product-image-phone {

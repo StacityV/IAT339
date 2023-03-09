@@ -403,3 +403,7 @@ footer>div:nth-of-type(2) {
 .style-image img{
     border-radius: 1rem;
 }
+
+.menuStyle{
+  display:block;
+}

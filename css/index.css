@@ -23,9 +23,10 @@ main{
     background-color: #424245;
 }
 
-.hero-section h2{
+.hero-section h1{
     font-size:2rem;
     text-shadow: 2px 2px #38978e;
+    line-height: 2;
 }
 
 .hero-section p{
@@ -106,7 +107,7 @@ main{
         line-height: 1.5rem;
     }
 
-    .hero-section h2{
+    .hero-section h1{
         font-size:1.5rem;
         text-shadow: 2px 2px #38978e;
     }
@@ -137,7 +138,7 @@ main{
         line-height: 1.5rem;
     }
 
-    .hero-section h2{
+    .hero-section h1{
         font-size:1.3rem;
         text-shadow: 1.2px 1.2px #38978e;
     }
@@ -162,7 +163,7 @@ main{
         padding-left:2rem;
     }
 
-    .hero-section h2{
+    .hero-section h1{
         font-size:1rem;
         text-shadow: 1px 1px #38978e;
     }

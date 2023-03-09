@@ -1,16 +1,17 @@
-open = false;
+
 
 function toggleMenu(){
     mainMenu = document.querySelector(".header-menu");
-    console.log(open)
-    if (open == false){
-        mainMenu.style.display = "block";
-    
-    }else{
-        mainMenu.style.display = "none";
-        
-    }
+    mainMenu.classList.toggle("menuStyle");
+}
 
-    open = !open;
-        
+function change(){
+    // alert("sdfsdfdsf");
+    console.log(window.screen.width);
+    var e = document.querySelector("del");
+    if (e != null && window.screen.width < 550){
+        e.innerHTML = "----------------";
+    }else{
+        e.innerHTML = "---------------------------------------------";
+    }
 }
