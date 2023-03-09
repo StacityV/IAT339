@@ -35,6 +35,15 @@ del {
     margin: auto;
 }
 
+.header_section {
+    background-color: #ffffff;
+    color: #424245;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .in-textlink {
     font-size: 0.8rem;
 }

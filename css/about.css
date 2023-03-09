@@ -1,11 +1,5 @@
-/* page title start*/
-.about_us_section {
-  background-color: #ffffff;
-  color: #424245;
-  height: 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h2{
+  color:#424245
 }
 /* page title end */
 .about_us_text {
