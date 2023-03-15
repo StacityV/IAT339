@@ -1,185 +1,83 @@
 
-  
-body {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: grey;
-    background: #424245;
+ body{
+    background-color: grey;
 }
 
-.wrap {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1140px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+h1{
+text-align: center;
+padding: 30px;
+
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: flex;
-    background: #ffffff;
-    box-shadow: 0 0 5px lightgrey;
+h2{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
 }
 
-.login .col-left,
-.login .col-right {
-    padding: 30px;
-    display: flex;
+.Logininfo{
+    padding-bottom: 7px;
 }
 
-.login .col-left {
-    width: 60%;
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
-    background: gray;
+.LoginInfoInput{
+    padding: 0.3rem;
 }
 
-.login .col-right {
-    padding: 60px 30px;
-    width: 50%;
-    margin-left: -10%;
+.Password{
+    margin-top: 30px auto ;
+    padding-top: 30px;
+    padding-bottom: 7px;
+
 }
 
-@media(max-width: 575px) {
-    .login .container {
-        flex-direction: column;
-        box-shadow: none;
-    }
-    .login .col-left,
-    .login .col-right {
-        width: 100%;
-        margin: 0;
-        clip-path: none;
-    }
-    .login .col-right {
-        padding: 30px;
-    }
+.PasswordnInput{
+    padding: 0.3rem;
 }
 
-.login .login-text {
-    position: relative;
-    width: 100%;
-    color: white;
+.container{
+    background-color:  #f2f2f2;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
 }
 
-.login .login-text h2 {
-    margin: 0 0 15px 0;
-    font-size: 30px;
-    font-weight: 700;
+.signup{
+    padding-top: 2rem;
 }
-
-.login .login-text p {
-    margin: 0 0 20px 0;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-}
-
-.login .login-text .btn {
+.signup_btn{
     display: inline-block;
     padding: 7px 20px;
     font-size: 16px;
     letter-spacing: 1px;
     text-decoration: none;
-    border-radius: 50px;
-    color: white;
+    border-radius: 30px;
+    color: black;
     outline: none;
-    border: 1px solid #ffffff;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 0 darkolivegreen;
+    transition: .3s;
 }
 
-.login .login-text .btn:hover {
-    color: gray;
-    box-shadow: inset 150px 0 0 0 #ffffff;
+.signup_btn:hover, .signup_btn:focus{
+    color: white;
+    box-shadow: inset 150px 0 0 0 darkolivegreen;
 }
 
-.login .login-form {
-    position: relative;
-    width: 100%;
-}
-
-.login .login-form h2 {
-    margin: 0 0 15px 0;
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.login .login-form p {
-    margin: 0 0 10px 0;
-    text-align: left;
-    color: gray;
-    font-size: 15px;
-}
-
-.login .login-form p:last-child {
-    margin: 0;
-    padding-top: 3px;
-}
-
-.login .login-form p a {
-    color: grey;
-    font-size: 14px;
+.createacct{
+    padding-top: 0.5rem;
     text-decoration: none;
+    color: black;
 }
 
-.login .login-form label {
-    display: block;
-    width: 100%;
-    margin-bottom: 2px;
-    letter-spacing: .5px;
+.create_btn{
+    padding-left: 5px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
 }
 
-.login .login-form p:last-child label {
-    width: 60%;
-    float: left;
+.create_btn:hover , .create_btn:focus{
+    padding-left: 5px;
+    font-size: 0.7rem;
+    color: darkolivegreen;
 }
-
-.login .login-form label span {
-    color: red;
-    padding-left: 2px;
-}
-
-.login .login-form input {
-    display: block;
-    width: 100%;
-    height: 35px;
-    padding: 0 10px;
-    outline: none;
-    border: 1px solid #cccccc;
-    border-radius: 50px;
-}
-
-.login .login-form input:focus {
-    border-color: #ff574e;
-}
-
-.login .login-form button,
-.login .login-form input[type=submit] {
-    display: inline-block;
-    width: 100%;
-    margin-top: 5px;
-    color: grey;
-    font-size: 16px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    background: transparent;
-    border: 1px solid grey;
-    border-radius: 50px;
-    box-shadow: inset 0 0 0 0 gray;
-    
-}
-
-.login .login-form button:hover,
-.login .login-form input[type=submit]:hover {
-    color: white;
-    box-shadow: inset 250px 0 0 0 grey;
-}
-
