@@ -1,13 +1,11 @@
 
- body{
-    background-color: grey;
-}
+
 
 
 h1{
 text-align: center;
 padding: 30px;
-
+color: #424245;
 }
 
 h2{
@@ -35,30 +33,37 @@ h2{
 }
 
 .container{
-    background-color:  #f2f2f2;
+    background-color:  #424245;
     padding: 2rem;
+    color: white;
     border-radius: 0.5rem;
     text-align: center;
+    margin: 0 10rem;
+}
+
+@media (max-width: 850px) {
+    .container{
+        margin: 0 1rem;
+    }
 }
 
 
-.signup_btn{
-    display: inline-block;
-    padding: 7px 20px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 30px;
-    color: black;
-    outline: none;
-    border: 1px solid black;
-    box-shadow: inset 0 0 0 0 darkolivegreen;
-    transition: .3s;
+.submit input{
+    margin-top: 2rem;
+    background-color: #38978e;
+    border: 0.1rem solid #43aaa08f;
+    width: 10%;
+    max-width: 10rem;
+    min-width: 5rem;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 0.5rem;
 }
-
-.signup_btn:hover, .signup_btn:focus{
-    color: white;
-    box-shadow: inset 150px 0 0 0 darkolivegreen;
+.submit input:hover {
+    background-color: #fdfdff;
+    border: 0.1rem solid #424245b6;
+    color: #000000;
+    border-radius:7px;
 }
 
 .signup{
@@ -68,18 +73,18 @@ h2{
 .createacct{
     padding-top: 0.5rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .create_btn{
     padding-left: 5px;
     font-size: 0.7rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .create_btn:hover , .create_btn:focus{
     padding-left: 5px;
     font-size: 0.7rem;
-    color: darkolivegreen;
+    color: #38978e;
 }
