@@ -41,9 +41,7 @@ h2{
     text-align: center;
 }
 
-.signup{
-    padding-top: 2rem;
-}
+
 .signup_btn{
     display: inline-block;
     padding: 7px 20px;
@@ -61,6 +59,10 @@ h2{
 .signup_btn:hover, .signup_btn:focus{
     color: white;
     box-shadow: inset 150px 0 0 0 darkolivegreen;
+}
+
+.signup{
+    padding-top: 2rem;
 }
 
 .createacct{
